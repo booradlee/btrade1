@@ -31,7 +31,7 @@ public class BinanceBotApplication {
   private double tradeProfit;
 
   @Value("${TRADE_AMOUNT:150}")
-  private int tradeAmount;
+  private double tradeAmount;
 
   @Value("${BASE_CURRENCY:ETH}")
   private String baseCurrency;
